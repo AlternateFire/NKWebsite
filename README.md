@@ -1,5 +1,5 @@
 # NKWebsite
 NK-Website Project
 
-#Intent
+Intent
 This website will cover the increasing military modernization programs in the DPRK. 
