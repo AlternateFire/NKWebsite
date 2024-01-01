@@ -1,0 +1,10 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #2a3441;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
