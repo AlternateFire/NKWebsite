@@ -18,8 +18,7 @@ function App() {
     <>
       <Box>
         <NavBar></NavBar>
-        <HomePageText>
-        </HomePageText>
+        <HomePageText></HomePageText>
         <BackgroundVideo></BackgroundVideo>
       </Box>
     </>
