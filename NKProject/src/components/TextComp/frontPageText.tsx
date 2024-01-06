@@ -30,7 +30,7 @@ const colorTheme = createTheme({
   },
 });
 
-const textHeader = "NORTH KOREAN MILITARY ANALYSIS" + "\n" + "Hello";
+const textHeader = "NORTH KOREAN" + "\n" + "MILITARY ANALYSIS";
 const subTextHeader =
   "This website hopes to uncover and analyze\n" + "Some of the ";
 
