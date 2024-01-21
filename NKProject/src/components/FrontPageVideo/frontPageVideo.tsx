@@ -9,7 +9,7 @@ export default function BackgroundVideo() {
         loop
         muted
         sx={{
-            filter: "brightness(50%)",
+            filter: "brightness(40%)",
         }}
         >
         </CardMedia>

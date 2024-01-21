@@ -30,16 +30,15 @@ const colorTheme = createTheme({
   },
 });
 
-const textHeader = "NORTH KOREAN" + "\n" + "MILITARY ANALYSIS";
-const subTextHeader =
-  "This website hopes to uncover and analyze\n" + "Some of the ";
+const textHeader = "NORTH KOREAN" + "\n" + "MILITARY ANALYSIS ";
+const subTextHeader = "This website hopes to uncover and analyze the DPRK's newly released weaponary, vehicles, within the perspetive of the DPRK, since their most recent parades from 2020, onward. This is a passion project designed to test frontend development.";
 
 export default function HomePageText() {
   return (
     <Box
       sx={{
-        height: "50%",
-        width: "50%",
+        height: "40%",
+        width: "40%",
         display: "flex",
         overflow: "break-word",
         padding: 20,

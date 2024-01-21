@@ -5,14 +5,6 @@ import { ThemeProvider, createTheme } from "@mui/material";
 import BackgroundVideo from "./components/FrontPageVideo/frontPageVideo";
 import HomePageText from "./components/TextComp/frontPageText";
 
-// const backGroundTheme = createTheme({
-//   palette: {
-//     background: {
-//       default: "#222222",
-//     },
-//   },
-// });
-
 function App() {
   return (
     <>
