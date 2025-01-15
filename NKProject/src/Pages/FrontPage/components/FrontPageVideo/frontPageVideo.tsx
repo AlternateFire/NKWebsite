@@ -1,15 +1,15 @@
 import './frontPageVideo.css'
-import { CardMedia, createTheme, makeStyles} from "@mui/material";
+import { CardMedia } from "@mui/material";
 
 export default function BackgroundVideo() {
     return (
         <CardMedia component={"video"}
-        src={"src/components/FrontPageVideo/Video/frontVideo.mp4"}
+        src={"src/Pages/FrontPage/components/FrontPageVideo/Video/frontVideo.mp4"}
         autoPlay
         loop
         muted
         sx={{
-            filter: "brightness(40%)",
+            filter: "brightness(10%)",
         }}
         >
         </CardMedia>
