@@ -3,8 +3,8 @@ import ShareIcon from '@mui/icons-material/Share';
 
 const textHeader = "Ch’ŏnma-2, M2020";
 const subTextHeader = `On the 10th of October 2020 marked the 75th Anniversary of the foundation of the Workers’ Party of Korea (WPK), the far-left party of the totalitarian one-party Democratic People’s Republic of Korea (DPRK). 
-This took place in P’yŏngyang, the North Korean capital, through Kim Il-sung Square. During this parade, a plethora of new armored vehicles were paraded across the square, 
-a new Main Battle Tank (MBT) had appeared. The tank was completely different from North Korea's tradtional tank arsenal. So much in fact that has intrigued many military analysts and enthusiasts was seen for the first time and has aroused great interest.`;
+This took place in P’yŏngyang, the North Korean capital, through Kim Il-sung Square. During this parade, a
+new Main Battle Tank (MBT) had appeared. The tank was completely different from North Korea's tradtional tank arsenal. So much in fact that has intrigued many military analysts and enthusiasts was seen for the first time and has aroused great interest.`;
 
 export default function Cheonma2Analysis() {
     return (
@@ -14,7 +14,6 @@ export default function Cheonma2Analysis() {
                 display: "flex",
                 alignItems: "top",
                 justifyContent: "center",
-                padding: "20px",
                 boxSizing: "border-box",
             }}
         >
@@ -45,14 +44,19 @@ export default function Cheonma2Analysis() {
                 <Box
                     component="img"
                     sx={{
-                        height: 233,
-                        width: 350,
-                        maxHeight: { xs: 233, md: 167 },
-                        maxWidth: { xs: 350, md: 250 },
+                        justifyContent: "center",
+                        textAlign: "center",
+                        height: 330,
+                        width: 810,
+                 
                     }}
-                    alt="The house from the offer."
-                    src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&w=350&dpr=2"
+                    src="src/Pages/FrontPage/components/TextComp/ImagesComp/M2020v1.png"
                 />
+
+                <Typography variant="subtitle1" sx={{ padding: "10px", margin: 0 }}>
+                    {subTextHeader}
+                </Typography>
+                
             </Box>
         </Box>
     );

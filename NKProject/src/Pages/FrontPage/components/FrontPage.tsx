@@ -40,20 +40,6 @@ const FrontPage = () => {
     <ThemeProvider theme={colorTheme}>
       <CssBaseline />
       <div>
-
-      {/* <Box sx={{
-            position: "absolute",
-            top: 0, // Stick to the top
-            left: 0,
-            width: "100%",
-            display: "flex",
-            justifyContent: "center", // Center horizontally
-            padding: "130px",
-          }}
-          >
-            <WorldClockWidget />
-        </Box> */}
-
         <Box
           sx={{
             height: "100vh",

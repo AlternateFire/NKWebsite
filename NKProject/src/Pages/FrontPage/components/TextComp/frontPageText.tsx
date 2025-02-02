@@ -14,7 +14,7 @@ export default function HomePageText() {
       sx={{
         height: "100vh",
         display: "flex",
-        margin: "150px",
+        marginTop: "450px",
         alignItems: "top",
         justifyContent: "center",
         padding: "10px",
@@ -23,7 +23,7 @@ export default function HomePageText() {
     >
       <CssBaseline />
 
-      <Box
+      {/* <Box
         sx={{
           position: "absolute",
           top: 0, // adjust as needed
@@ -33,7 +33,7 @@ export default function HomePageText() {
         }}
       >
         <WorldClockWidget />
-      </Box>
+      </Box> */}
 
       
       <Box
