@@ -15,6 +15,7 @@ export default function Cheonma2Analysis() {
                 alignItems: "top",
                 justifyContent: "center",
                 boxSizing: "border-box",
+                marginTop: "150px"
             }}
         >
             <CssBaseline />

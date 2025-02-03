@@ -37,8 +37,8 @@ export default function NavBar() {
         <AppBar
           sx={{
             backgroundImage: "linear-gradient(to right, #040f41 15%, #0e679d 90%)",
-            position: "fixed",
             padding: "0 20px",
+            position: "fixed"
           }}
         >
           <Grid

@@ -48,8 +48,8 @@ const FrontPage = () => {
             alignItems: "center", // Center horizontally
             justifyContent: "center", // Center vertically
             padding: "30px",
+            marginTop: "450px",
             boxSizing: "border-box",
-            overflow: "auto",
           }}
         >
           {/* <Box  
