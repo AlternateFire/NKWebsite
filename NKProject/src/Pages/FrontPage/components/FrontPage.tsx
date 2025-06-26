@@ -48,6 +48,7 @@ const FrontPage = () => {
             alignItems: "center", // Center horizontally
             justifyContent: "flex-start", // Center vertically
             paddingTop: { xs: "100px", sm: "120px", md: "140px" }, 
+            paddingBottom: { xs: "100px", sm: "120px", md: "140px" }, 
             boxSizing: "border-box",
           }}
         >
