@@ -40,15 +40,14 @@ const FrontPage = () => {
     <ThemeProvider theme={colorTheme}>
       <CssBaseline />
       <div>
-        <Box
+        <Box // going forward: Stop adding fixed positions, use more responsive design logic
           sx={{
             height: "100vh",
             display: "flex",
             flexDirection: "column", // Stack components vertically
             alignItems: "center", // Center horizontally
-            justifyContent: "center", // Center vertically
-            padding: "30px",
-            marginTop: "450px",
+            justifyContent: "flex-start", // Center vertically
+            paddingTop: { xs: "100px", sm: "120px", md: "140px" }, 
             boxSizing: "border-box",
           }}
         >
@@ -67,7 +66,6 @@ const FrontPage = () => {
           
           <HomePageText />
           <Cheonma2Analysis />
-          <BackgroundVideo />
         </Box>
       </div>
     </ThemeProvider>

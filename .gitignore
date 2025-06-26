@@ -1,0 +1,12 @@
+*.js
+*.json
+*.md
+*.mjs
+*.ts
+*.mts
+*.map
+node_modules/cookie/LICENSE
+node_modules/react/LICENSE
+node_modules/react-dom/LICENSE
+node_modules/scheduler/LICENSE
+node_modules/set-cookie-parser/LICENSE
