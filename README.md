@@ -7,5 +7,5 @@ around 2020-2024~.
 Vehicles of high interest, such as notcieable technological breakthroughs, or of a considerable ehnacement to the DPRK's strategic or tatical usefulness will all be briefly mentioned. 
 I hope to uncover and discuss about these vehicles, as information is relatively lacking to a broad audience, done in the asthetic of a reforming Korean People's Army, as seen from 2020-onward. 
 
-Vehicles to be covered: 
-M2020 (Cheonma-2), M2018, Unseen MLRS systems, North Korean Iskander, Hwasong-18
+Vehicles to be covered as of right now: 
+M2020 (Cheonma-2), M2018, Hwasong-18
