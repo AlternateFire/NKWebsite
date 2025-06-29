@@ -17,10 +17,12 @@ const text_1 =
 const text_2 =
   "The Ch’ŏnma-2 remains a largely new design with very little in common with previous MBTs developed in North Korea.";
 const text_3 =
-  "On the turret’s left is what looks like a thermal/night vision sight. If this is the case than the Ch’ŏnma-2 would be the first North Korean tank equipped with such a device. This long over do improvement would increase the capabilities of the tank during night operations or when visibility is reduced. It should be noted that many modern armored vehicles that are not equipped with night vision are proving less effective, as seen in the current conflict in Ukraine (as of 2024).";
+  "On the left of side of the turret, there appears to be a thermal/night vision sight. If this is the case than the Ch’ŏnma-2 would be the first North Korean tank equipped with such a device. This long over due improvement would increase the capabilities of the tank during night operations or when visibility is reduced. It should be noted that many modern armored vehicles that are not equipped with night vision are proving less effective, as seen in the current conflict in Ukraine (as of 2024).";
 const subtext_1 = `Visual representation of the Ch’ŏnma-2, M2020, as seen during the 2020 WPK 75th Anniversary Parade.`;
-const subtext_2 =
+const text_4 =
   "Some of the key components of the Ch’ŏnma-2, M2020, are displayed above. Yes that is Kim Jong Un driving the tank. Source: KCTV.";
+const text_5 = "Another notable feature of the Ch’ŏnma-2 are two sighting systems. One of the commander and the other for a potential gunner. This possibly hints at the main, a 125mm smoothbore cannon, being manually loaded. This deviates from the traditional soviet style of tank design and philopshy, and is similar to older North Korean tank designs.";
+
 
 export default function Cheonma2Analysis() {
   return (
@@ -106,12 +108,16 @@ export default function Cheonma2Analysis() {
           variant="body1"
           sx={{ textAlign: "center", padding: "10px", margin: 0 }}
         >
-          {subtext_2}
+          {text_4}
         </Typography>
 
         <Typography variant="subtitle1" sx={{ padding: "10px", margin: 0 }}>
-          {text_3}
+            {text_3}
+            <br />
+            <br />
+            {text_5}
         </Typography>
+
         <Box
           component="img"
           sx={{
