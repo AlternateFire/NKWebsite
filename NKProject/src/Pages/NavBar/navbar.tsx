@@ -6,6 +6,8 @@ import Button from "@mui/material/Button";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { createTheme } from "@mui/material";
 
+const APPBAR_HEIGHT = 81;
+
 const colorTheme = createTheme({
   palette: {
     primary: { main: "#ffffff" }, 
@@ -38,7 +40,9 @@ export default function NavBar() {
           sx={{
             backgroundImage: "linear-gradient(to right, #040f41 15%, #0e679d 90%)",
             padding: "0 20px",
-            position: "fixed"
+            position: "fixed",
+            height: `${APPBAR_HEIGHT}px`, 
+            justifyContent: "center",
           }}
         >
           <Grid
