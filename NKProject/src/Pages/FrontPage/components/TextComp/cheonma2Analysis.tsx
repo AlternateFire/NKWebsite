@@ -21,7 +21,7 @@ const text_3 =
 const subtext_1 = `Visual representation of the Ch’ŏnma-2, M2020, as seen during the 2020 WPK 75th Anniversary Parade.`;
 const text_4 =
   "Some of the key components of the Ch’ŏnma-2, M2020, are displayed above. Yes that is Kim Jong Un driving the tank. Source: KCTV.";
-const text_5 = "Another notable feature of the Ch’ŏnma-2 are two sighting systems. One of the commander and the other for a potential gunner. This possibly hints at the main, a 125mm smoothbore cannon, being manually loaded. This deviates from the traditional soviet style of tank design and philopshy, and is similar to older North Korean tank designs.";
+const text_5 = "Another notable feature of the Ch’ŏnma-2 are the two sighting systems. One for the commander and the other for a potential gunner. This possibly hints at the main, 125mm smoothbore cannon, being manually loaded. This deviates from the traditional soviet style of tank design, where a cerousel autoloader is used to load the main cannon. This is similar to previous styles of North Korean tank design.";
 
 
 export default function Cheonma2Analysis() {
