@@ -47,7 +47,7 @@ export default function HomePageText() {
           {textHeader}
         </Typography>
 
-        <Typography variant="subtitle1" sx={{ padding: "10px", margin: 0 }}>
+        <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
           {subTextHeader}
         </Typography>
 
@@ -62,7 +62,7 @@ export default function HomePageText() {
 
         <Grid container spacing={2} alignItems="center">
           <Grid item xs={6}>
-            <Typography variant="subtitle1" sx={{ padding: "10px", margin: 0 }}>
+            <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
               {"All credit: AlternateFire"}
             </Typography>
           </Grid>

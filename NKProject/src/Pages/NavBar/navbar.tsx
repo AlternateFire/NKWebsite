@@ -19,7 +19,7 @@ const colorTheme = createTheme({
       fontFamily: "Open Sans, sans-serif",
       textTransform: "uppercase",
     },
-    subtitle1: {
+    body1: {
       fontSize: "1.25rem",
       fontWeight: 300,
       fontFamily: "Open Sans, sans-serif",
