@@ -1,8 +1,8 @@
 import { Box, createTheme, CssBaseline, ThemeProvider } from "@mui/material";
 import BackgroundVideo from "./FrontPageVideo/frontPageVideo";
-import HomePageText from "./TextComp/frontPageText";
-import WorldClockWidget from "./TextComp/worldClockWidget"
-import Cheonma2Analysis from "./TextComp/cheonma2Analysis";
+import HomePageText from "./TextComp/title_header_beg";
+import WorldClockWidget from "./TextComp/world_clock_widget";
+import Cheonma2Analysis from "./TextComp/cheonma_2_analysis";
 
 
 const FrontPage = () => {
@@ -32,7 +32,6 @@ const FrontPage = () => {
           >
             <WorldClockWidget />
           </Box> */}
-          
           <HomePageText />
           <Cheonma2Analysis />
         </Box>

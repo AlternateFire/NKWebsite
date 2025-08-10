@@ -1,6 +1,6 @@
 import { Box, Typography, CssBaseline, Divider, Button, Grid } from "@mui/material";
 import ShareIcon from '@mui/icons-material/Share';
-import WorldClockWidget from "./worldClockWidget";
+import WorldClockWidget from "./world_clock_widget";
 
 const textHeader = `Analyzing North Korea's Mechanized Vehicles from 2020-2024`;
 const subTextHeader =
@@ -46,6 +46,8 @@ export default function HomePageText() {
         <Typography variant="h1" gutterBottom sx={{padding: "10px", margin: 0 }}>
           {textHeader}
         </Typography>
+
+        <WorldClockWidget />
 
         <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
           {subTextHeader}
