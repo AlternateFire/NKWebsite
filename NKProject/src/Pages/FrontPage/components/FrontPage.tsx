@@ -4,41 +4,9 @@ import HomePageText from "./TextComp/frontPageText";
 import WorldClockWidget from "./TextComp/worldClockWidget"
 import Cheonma2Analysis from "./TextComp/cheonma2Analysis";
 
-const colorTheme = createTheme({
-  palette: {
-    primary: { main: "#ffffff" }, 
-  },
-  typography: {
-    h1: {
-      fontSize: "3.5rem",
-      fontWeight: 500,
-      fontFamily: "Open Sans, sans-serif",
-      textTransform: "uppercase",
-    },
-    h3: {
-      fontSize: "2.5rem",
-      fontWeight: 500,
-      fontFamily: "Open Sans, sans-serif",
-      textTransform: "uppercase",
-    },
-    body1: {
-      fontSize: "1.25rem",
-      fontWeight: 300,
-      fontFamily: "Open Sans, sans-serif",
-      lineHeight: 1.75,
-    },
-    subtitle1: {
-      fontSize: "1rem",
-      fontWeight: 400,
-      fontFamily: "Open Sans, sans-serif",
-    },
-  },
-});
 
 const FrontPage = () => {
   return (
-    <ThemeProvider theme={colorTheme}>
-      <CssBaseline />
       <div>
         <Box // going forward: Stop adding fixed positions, use more responsive design logic
           sx={{
@@ -69,7 +37,6 @@ const FrontPage = () => {
           <Cheonma2Analysis />
         </Box>
       </div>
-    </ThemeProvider>
 
   );
 };

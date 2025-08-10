@@ -4,34 +4,9 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { createTheme } from "@mui/material";
+import { Typography } from "@mui/material";
 
 const APPBAR_HEIGHT = 81;
-
-const colorTheme = createTheme({
-  palette: {
-    primary: { main: "#ffffff" }, 
-  },
-  typography: {
-    h1: {
-      fontSize: "3.5rem",
-      fontWeight: 500,
-      fontFamily: "Open Sans, sans-serif",
-      textTransform: "uppercase",
-    },
-    body1: {
-      fontSize: "1.25rem",
-      fontWeight: 300,
-      fontFamily: "Open Sans, sans-serif",
-      lineHeight: 1.75,
-    },
-    body1: {
-      fontSize: "1rem",
-      fontWeight: 400,
-      fontFamily: "Open Sans, sans-serif",
-    },
-  },
-});
 
 export default function NavBar() {
   return (
@@ -80,7 +55,6 @@ export default function NavBar() {
               <Button
                 variant="text"
                 sx={{
-                  color: "white",
                   ml: 2,
                   textTransform: "uppercase",
                   fontWeight: "bold",
@@ -90,13 +64,14 @@ export default function NavBar() {
                 }}
                 onClick={() => alert("Navigate to About")} // Replace with navigation logic
               >
-                About
+                <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
+                  About
+                </Typography>
               </Button>
               {/* Sources*/}
               <Button
                 variant="text"
                 sx={{
-                  color: "white",
                   ml: 2,
                   textTransform: "uppercase",
                   fontWeight: "bold",
@@ -106,7 +81,9 @@ export default function NavBar() {
                 }}
                 onClick={() => alert("Navigate to Sources")} // Replace with navigation logic
               >
-                Sources
+                <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
+                  Sources
+                </Typography>
               </Button>
             </Grid>
 
@@ -134,7 +111,6 @@ export default function NavBar() {
               <Button
                 variant="text"
                 sx={{
-                  color: "white",
                   textTransform: "uppercase",
                   fontWeight: "bold",
                   "&:hover": {
@@ -143,7 +119,9 @@ export default function NavBar() {
                 }}
                 onClick={() => alert("Navigate to Contact")} // Replace with navigation logic
               >
-                Contact
+                <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
+                  Contact
+                </Typography>
               </Button>
             </Grid>
           </Grid>
