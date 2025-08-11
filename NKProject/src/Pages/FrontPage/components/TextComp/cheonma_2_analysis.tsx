@@ -98,10 +98,10 @@ export default function Cheonma2Analysis() {
         </Typography>
 
         <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
-            {cheonma_2_text.body.text_3}
+            {cheonma_2_text.body.text_turret_overview}
             <br />
             <br />
-            {cheonma_2_text.body.text_5}
+            {cheonma_2_text.body.text_turret_overview_2}
         </Typography>
 
         <Box
@@ -116,12 +116,28 @@ export default function Cheonma2Analysis() {
         />
         
         <Typography variant="subtitle1" sx={{ textAlign: "center", padding: "10px", margin: 0 }}>
-            {cheonma_2_text.header.subtext_2}
+          {cheonma_2_text.header.subtext_2}
         </Typography>
         
         <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
-          hellooooo
+          {cheonma_2_text.body.text_6}
         </Typography>
+
+        <Box
+          component="img"
+          sx={{
+            justifyContent: "center",
+            textAlign: "center",
+            height: 500,
+            width: 810,
+          }}
+          src="src/Pages/FrontPage/components/TextComp/ImagesComp/turret_analysis.jpeg"
+        />
+
+        <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
+          {cheonma_2_text.body.text_5}
+        </Typography>
+
       </Box>
     </Box>
   );

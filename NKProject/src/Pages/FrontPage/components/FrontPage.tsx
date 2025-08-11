@@ -3,6 +3,7 @@ import BackgroundVideo from "./FrontPageVideo/frontPageVideo";
 import HomePageText from "./TextComp/title_header_beg";
 import WorldClockWidget from "./TextComp/world_clock_widget";
 import Cheonma2Analysis from "./TextComp/cheonma_2_analysis";
+import M2018Analysis from "./TextComp/m2018_analysis";
 
 
 const FrontPage = () => {
@@ -20,23 +21,11 @@ const FrontPage = () => {
             boxSizing: "border-box",
           }}
         >
-          {/* <Box  
-            sx={{
-              position: "absolute",
-              top: 0, // Stick to the top
-              left: 0,
-              width: "100%",
-              display: "flex",
-              justifyContent: "center", // Center horizontally
-            }}
-          >
-            <WorldClockWidget />
-          </Box> */}
           <HomePageText />
           <Cheonma2Analysis />
+          <M2018Analysis />
         </Box>
       </div>
-
   );
 };
 
