@@ -81,7 +81,7 @@ export default function HomePageText() {
                 },
                 "&:hover": {
                   color: "#00a0ff",
-                },
+                }, 
               }}
               startIcon={<ShareIcon />}
               href="https://github.com/" /* Update with actual link */

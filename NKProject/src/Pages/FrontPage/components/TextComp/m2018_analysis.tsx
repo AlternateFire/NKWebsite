@@ -44,12 +44,20 @@ export default function M2018Analysis() {
           }}
         />
 
+        <Typography
+          variant="body1"
+          gutterBottom
+          sx={{ padding: "10px", margin: 0 }}
+        >
+          {m2018_text.home.sub_text_title}
+        </Typography>
+
         <Box
           component="img"
           sx={{
             justifyContent: "center",
             textAlign: "center",
-            height: 500,
+            height: 550,
             width: 810,
           }}
           src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2018_parade.jpg"
