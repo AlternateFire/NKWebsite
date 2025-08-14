@@ -13,8 +13,7 @@ const FrontPage = () => {
           sx={{
             height: "100vh",
             display: "flex",
-            flexDirection: "column", // Stack components vertically
-            alignItems: "center", // Center horizontally
+            flexDirection: "column", // Stack components vertically// Center horizontally
             justifyContent: "flex-start", // Center vertically
             paddingTop: { xs: "100px", sm: "120px", md: "140px" }, 
             paddingBottom: { xs: "100px", sm: "120px", md: "140px" }, 
@@ -24,6 +23,7 @@ const FrontPage = () => {
           <HomePageText />
           <Cheonma2Analysis />
           <M2018Analysis />
+          
         </Box>
       </div>
   );

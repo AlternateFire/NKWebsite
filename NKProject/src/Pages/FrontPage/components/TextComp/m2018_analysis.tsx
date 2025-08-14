@@ -14,18 +14,17 @@ export default function M2018Analysis() {
         <Box
             sx={{
                 display: "flex",
-                alignItems: "top",
+                alignContent: "top",
                 justifyContent: "center",
                 boxSizing: "border-box",
-                marginTop: "150px",
+                marginTop: "200px",
               }}
             >
               <CssBaseline />
               <Box
                 sx={{
-                  maxWidth: "800px",
+                  maxWidth: "810px",
                   textAlign: "left",
-                  margin: "0 auto",
                   color: "primary.main",
                 }}
               >
@@ -36,6 +35,7 @@ export default function M2018Analysis() {
                 >
                   {m2018_text.home.title} 
                 </Typography>
+                
                 <Divider
                     sx={{
                     backgroundColor: "primary.main", // Use global theme's primary color

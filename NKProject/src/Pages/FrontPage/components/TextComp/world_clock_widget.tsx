@@ -15,7 +15,7 @@ export default function WorldClockWidget() {
     <Box
         sx={{
         display: "flex",
-        alignItems: "top",
+        alignContent: "top",
         justifyContent: "left",
         padding: "10px",
         boxSizing: "border-box",

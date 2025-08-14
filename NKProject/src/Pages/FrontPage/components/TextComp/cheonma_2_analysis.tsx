@@ -8,26 +8,24 @@ import {
 } from "@mui/material";
 
 import { cheonma_2_text } from "./cheonma2_text";
-import ShareIcon from "@mui/icons-material/Share";
 
 export default function Cheonma2Analysis() {
   return (
     <Box
       sx={{
-        height: "100vh",
         display: "flex",
-        alignItems: "top",
+        alignContent: "top",
         justifyContent: "center",
         boxSizing: "border-box",
-        marginTop: "150px",
+        marginTop: "200px",
       }}
     >
       <CssBaseline />
       <Box
         sx={{
-          maxWidth: "800px",
+          maxWidth: "810px",
           textAlign: "left",
-          margin: "0 auto",
+          paddingLeft: "16px",
           color: "primary.main",
         }}
       >
@@ -84,7 +82,7 @@ export default function Cheonma2Analysis() {
           sx={{
             justifyContent: "center",
             textAlign: "center",
-            height: 430,
+            height: 460,
             width: 810,
           }}
           src="src/Pages/FrontPage/components/TextComp/ImagesComp/equipment_overview.jpeg"

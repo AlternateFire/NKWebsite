@@ -14,7 +14,7 @@ export default function HomePageText() {
       sx={{
         height: "100vh",
         display: "flex",
-        alignItems: "top",
+        alignContent: "top",
         justifyContent: "center",
         padding: "10px",
         boxSizing: "border-box",
