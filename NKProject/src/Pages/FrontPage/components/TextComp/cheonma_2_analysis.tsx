@@ -20,7 +20,6 @@ export default function Cheonma2Analysis() {
         marginTop: "200px",
       }}
     >
-      <CssBaseline />
       <Box
         sx={{
           maxWidth: "810px",
