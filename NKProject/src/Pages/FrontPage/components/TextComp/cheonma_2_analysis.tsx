@@ -100,7 +100,7 @@ export default function Cheonma2Analysis() {
             <br />
             {cheonma_2_text.body.text_turret_overview_2}
         </Typography>
-
+        
         <Box
           component="img"
           sx={{
@@ -111,13 +111,29 @@ export default function Cheonma2Analysis() {
           }}
           src="src/Pages/FrontPage/components/TextComp/ImagesComp/thermal_sight.jpeg"
         />
-        
+
         <Typography variant="subtitle1" sx={{ textAlign: "center", padding: "10px", margin: 0 }}>
           {cheonma_2_text.header.subtext_2}
         </Typography>
-        
+
+        <Grid container spacing={2} justifyContent="center "alignItems="center" sx={{ marginTop: "10px", marginBottom: "10px" }}>
+          <Box
+            component="img"
+            sx={{
+              textAlign: "center",
+              height: 580,
+              width: 350,
+            }}
+            src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_thermal_sight.png"
+          />
+        </Grid> 
+
+        <Typography variant="subtitle1" sx={{ textAlign: "center", padding: "10px", margin: 0 }}>
+          {cheonma_2_text.header.subtext_4}
+        </Typography>
+
         <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
-          {cheonma_2_text.body.text_6}
+          {cheonma_2_text.body.text_5}
         </Typography>
 
         <Box
@@ -130,11 +146,10 @@ export default function Cheonma2Analysis() {
           }}
           src="src/Pages/FrontPage/components/TextComp/ImagesComp/turret_analysis.jpeg"
         />
-
+        
         <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
           {cheonma_2_text.body.text_5}
         </Typography>
-
       </Box>
     </Box>
   );
