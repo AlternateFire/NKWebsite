@@ -175,7 +175,10 @@ export default function Cheonma2Analysis() {
             src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_apfsds_top_2.png"
           />
         </Stack>
-
+        
+        <Typography variant="subtitle1" sx={{ textAlign: "center", padding: "10px", margin: 0 }}>
+          {cheonma_2_text.header.subtext_5}
+        </Typography>
       </Box>
     </Box>
   );
