@@ -5,6 +5,7 @@ import {
   Divider,
   Button,
   Grid,
+  Stack,
 } from "@mui/material";
 
 import { cheonma_2_text } from "./cheonma2_text";
@@ -150,6 +151,31 @@ export default function Cheonma2Analysis() {
         <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
           {cheonma_2_text.body.text_5}
         </Typography>
+
+        <Stack direction="row" spacing={2}> 
+          <Box
+            component="img"
+            sx={{
+              justifyContent: "center",
+              textAlign: "center",
+              height: 300,
+              width: 410,
+            }}
+            src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_apfsds_1.png"
+          />
+
+          <Box
+            component="img"
+            sx={{
+              justifyContent: "center",
+              textAlign: "center",
+              height: 300,
+              width: 410,
+            }}
+            src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_apfsds_top_2.png"
+          />
+        </Stack>
+
       </Box>
     </Box>
   );
