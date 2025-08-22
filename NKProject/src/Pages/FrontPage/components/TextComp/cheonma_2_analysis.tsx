@@ -6,6 +6,7 @@ import {
   Button,
   Grid,
   Stack,
+  CardMedia,
 } from "@mui/material";
 
 import { cheonma_2_text } from "./cheonma2_text";
@@ -175,10 +176,23 @@ export default function Cheonma2Analysis() {
             src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_apfsds_top_2.png"
           />
         </Stack>
-        
+
         <Typography variant="subtitle1" sx={{ textAlign: "center", padding: "10px", margin: 0 }}>
           {cheonma_2_text.header.subtext_5}
         </Typography>
+        
+        <Stack direction="column" spacing={2} alignItems="center">
+          <Box
+            component="img"
+            sx={{
+              justifyContent: "center",
+              textAlign: "center",
+              height: 300,
+              width: 500,
+            }}
+            src="src/Pages/FrontPage/components/TextComp/VideoComp/M2020_APS.gif"
+          />
+        </Stack>
       </Box>
     </Box>
   );
