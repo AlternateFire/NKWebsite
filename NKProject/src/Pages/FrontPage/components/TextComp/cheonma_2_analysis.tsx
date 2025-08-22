@@ -153,7 +153,7 @@ export default function Cheonma2Analysis() {
           {cheonma_2_text.body.text_5}
         </Typography>
 
-        <Stack direction="row" spacing={2}> 
+        <Stack direction="row" spacing={2} padding="10px"> 
           <Box
             component="img"
             sx={{
@@ -181,18 +181,23 @@ export default function Cheonma2Analysis() {
           {cheonma_2_text.header.subtext_5}
         </Typography>
         
-        <Stack direction="column" spacing={2} alignItems="center">
+        <Stack direction="column" spacing={2} alignItems="center" padding="10px">
           <Box
             component="img"
             sx={{
               justifyContent: "center",
               textAlign: "center",
-              height: 300,
-              width: 500,
+              height: 350,
+              width: 600,
             }}
             src="src/Pages/FrontPage/components/TextComp/VideoComp/M2020_APS.gif"
           />
         </Stack>
+
+        <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
+          {cheonma_2_text.body.text_7}
+        </Typography>
+        
       </Box>
     </Box>
   );
