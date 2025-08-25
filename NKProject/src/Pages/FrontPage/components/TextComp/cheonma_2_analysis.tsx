@@ -67,6 +67,17 @@ export default function Cheonma2Analysis() {
           {cheonma_2_text.header.subtext_1}
         </Typography>
 
+        <Box
+          component="img"
+          sx={{
+            justifyContent: "center",
+            textAlign: "center",
+            height: 500,
+            width: 810,
+          }}
+          src="src/Pages/FrontPage/components/TextComp/ImagesComp/M2020_rearview_firing.jpeg"
+        />
+
         <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
           {cheonma_2_text.body.text_1}
           <br />
@@ -197,6 +208,8 @@ export default function Cheonma2Analysis() {
         <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
           {cheonma_2_text.body.text_7}
         </Typography>
+
+
         
       </Box>
     </Box>
