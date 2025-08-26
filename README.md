@@ -1,7 +1,6 @@
 
 
 # NKWebsite - Analyzing North Korea's Mechanized Forces (2020-2024)
----
 NK-Website Project, Analyzing North Korea's Mechanized Forces (2020-2024)
 
 Intent:
