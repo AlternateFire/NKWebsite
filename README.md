@@ -1,7 +1,7 @@
-
-
 # NKWebsite - Analyzing North Korea's Mechanized Forces (2020-2024)
-NK-Website Project, Analyzing North Korea's Mechanized Forces (2020-2024)
+<p align="center">
+    <img width="800" height="400" src="/NKProject/src/Pages/NavBar/image/nkbanner5.png" alt="title">
+</p>
 
 Intent:
 This website is a small passion project on analyzing the DPRK's (North Korea's) mechanized military modernization programs and their vehicles from
