@@ -31,7 +31,7 @@ export default function Cheonma2Analysis() {
         }}
       >
         <Typography
-          variant="h3"
+          variant="h2"
           gutterBottom
           sx={{ padding: "10px", margin: 0 }}
         >
@@ -40,7 +40,7 @@ export default function Cheonma2Analysis() {
 
         <Divider
           sx={{
-            backgroundColor: "primary.main", // Use global theme's primary color
+            backgroundColor: "primary.main", // Use global theme's primary color 
             margin: "10px 0",
             height: "1px",
           }}
@@ -85,7 +85,7 @@ export default function Cheonma2Analysis() {
           {cheonma_2_text.body.text_2}
         </Typography>
 
-        <Typography variant="h3" sx={{ padding: "10px", margin: 0 }}>
+        <Typography variant="h2" sx={{ padding: "10px", margin: 0 }}>
           Overview
         </Typography>
 
@@ -113,8 +113,12 @@ export default function Cheonma2Analysis() {
             <br />
             {cheonma_2_text.body.text_turret_overview_2}
         </Typography>
-        
-        <Box
+
+        <Typography variant="h3" sx={{ padding: "10px", margin: 0 }}> 
+          Thermal Sights
+        </Typography>
+
+        <Box // Thermal Sights Section
           component="img"
           sx={{
             justifyContent: "center",
@@ -148,8 +152,12 @@ export default function Cheonma2Analysis() {
         <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
           {cheonma_2_text.body.text_5}
         </Typography>
+        
+        <Typography variant="h3" sx={{ padding: "10px", margin: 0 }}> 
+          Turret
+        </Typography>
 
-        <Box
+        <Box // Turret Analysis
           component="img"
           sx={{
             justifyContent: "center",
@@ -209,7 +217,24 @@ export default function Cheonma2Analysis() {
           {cheonma_2_text.body.text_7}
         </Typography>
 
+        <Typography variant="h4" sx={{ padding: "10px", margin: 0 }}>
+          Hull, Engine, And Running Gear
+        </Typography>
+        
+        <Box
+          component="img"
+          sx={{
+            justifyContent: "center",
+            textAlign: "center",
+            height: 550,
+            width: 810,
+          }}
+          src="src/Pages/FrontPage/components/TextComp/ImagesComp/M2020_ags_launcher.jpeg"
+        />
 
+        <Typography variant="subtitle1" sx={{ textAlign: "center", padding: "10px", margin: 0 }}>
+          {cheonma_2_text.header.subtext_6}
+        </Typography>
         
       </Box>
     </Box>

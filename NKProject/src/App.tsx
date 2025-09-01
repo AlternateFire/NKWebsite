@@ -14,12 +14,24 @@ const colorTheme = createTheme({
       fontFamily: "Open Sans, sans-serif",
       textTransform: "uppercase",
     },
+    h2: {
+      fontSize: "3rem",
+      fontWeight: 500,
+      fontFamily: "Open Sans, sans-serif",
+      textTransform: "uppercase",
+    },
     h3: {
       fontSize: "2.5rem",
       fontWeight: 500,
       fontFamily: "Open Sans, sans-serif",
       textTransform: "uppercase",
     },
+    h4: {
+      fontSize: "2rem",
+      fontWeight: 500,
+      fontFamily: "Open Sans, sans-serif",
+      textTransform: "uppercase",
+    }, 
     body1: {
       fontSize: "1.25rem",
       fontWeight: 300,
