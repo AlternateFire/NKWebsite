@@ -215,6 +215,21 @@ export default function Cheonma2Analysis() {
 
         <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
           {cheonma_2_text.body.text_7}
+
+        </Typography>
+                <Box
+          component="img"
+          sx={{
+            justifyContent: "center",
+            textAlign: "center",
+            height: 500,
+            width: 810,
+          }}
+          src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_chonma216_example_LWS.jpeg"
+        />
+
+        <Typography variant="subtitle1" sx={{ textAlign: "center", padding: "10px", margin: 0 }}>
+          {cheonma_2_text.header.subtext_7}
         </Typography>
 
         <Typography variant="h4" sx={{ padding: "10px", margin: 0 }}>
