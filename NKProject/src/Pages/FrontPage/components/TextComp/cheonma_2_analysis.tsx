@@ -232,6 +232,10 @@ export default function Cheonma2Analysis() {
           {cheonma_2_text.header.subtext_7}
         </Typography>
 
+        <Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
+          {cheonma_2_text.body.text_8}
+        </Typography>
+
         <Typography variant="h4" sx={{ padding: "10px", margin: 0 }}>
           Hull, Engine, And Running Gear
         </Typography>
