@@ -22,6 +22,7 @@ export default function Cheonma2Analysis() {
         display: "flex",
         alignContent: "top",
         justifyContent: "center",
+        padding: "10px",
         boxSizing: "border-box",
         marginTop: "200px",
       }}
@@ -30,7 +31,7 @@ export default function Cheonma2Analysis() {
         sx={{
           maxWidth: "810px",
           textAlign: "left",
-          paddingLeft: "16px",
+          margin: "0 auto",
           color: "primary.main",
         }}
       >
@@ -55,7 +56,6 @@ export default function Cheonma2Analysis() {
 
         <ImageSlider />
 
-
         {/* <Box */}
           {/* component="img" */}
           {/* sx={{ */}
@@ -78,9 +78,10 @@ export default function Cheonma2Analysis() {
           component="img"
           sx={{
             justifyContent: "center",
+            margin: "0 auto", 
             textAlign: "center",
-            height: 500,
-            width: 810,
+            height: "auto",
+            width: 800,
           }}
           src="src/Pages/FrontPage/components/TextComp/ImagesComp/M2020_rearview_firing.jpeg"
         />
@@ -101,8 +102,9 @@ export default function Cheonma2Analysis() {
           sx={{
             justifyContent: "center",
             textAlign: "center",
-            height: 460,
-            width: 810,
+            margin: "0 auto",
+            height: "auto",
+            width: 800,
           }}
           src="src/Pages/FrontPage/components/TextComp/ImagesComp/equipment_overview.jpeg"
         />
@@ -130,8 +132,9 @@ export default function Cheonma2Analysis() {
           sx={{
             justifyContent: "center",
             textAlign: "center",
-            height: 380,
-            width: 810,
+            margin: "0 auto",
+            height: "auto",
+            width: 800,
           }}
           src="src/Pages/FrontPage/components/TextComp/ImagesComp/thermal_sight.jpeg"
         />
@@ -145,7 +148,8 @@ export default function Cheonma2Analysis() {
             component="img"
             sx={{
               textAlign: "center",
-              height: 580,
+              margin: "0 auto",
+              height: "auto",
               width: 350,
             }}
             src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_thermal_sight.png"
@@ -169,8 +173,9 @@ export default function Cheonma2Analysis() {
           sx={{
             justifyContent: "center",
             textAlign: "center",
-            height: 500,
-            width: 810,
+            margin: "0 auto",
+            height: "auto",
+            width: 800,
           }}
           src="src/Pages/FrontPage/components/TextComp/ImagesComp/turret_analysis.jpeg"
         />
@@ -185,7 +190,8 @@ export default function Cheonma2Analysis() {
             sx={{
               justifyContent: "center",
               textAlign: "center",
-              height: 300,
+              margin: "0 auto",
+              height: "auto",
               width: 410,
             }}
             src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_apfsds_1.png"
@@ -196,7 +202,8 @@ export default function Cheonma2Analysis() {
             sx={{
               justifyContent: "center",
               textAlign: "center",
-              height: 300,
+              margin: "0 auto",
+              height: "auto",
               width: 410,
             }}
             src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_apfsds_top_2.png"
@@ -213,7 +220,8 @@ export default function Cheonma2Analysis() {
             sx={{
               justifyContent: "center",
               textAlign: "center",
-              height: 350,
+              margin: "0 auto",
+              height: "auto",
               width: 600,
             }}
             src="src/Pages/FrontPage/components/TextComp/VideoComp/M2020_APS.gif"
@@ -224,13 +232,15 @@ export default function Cheonma2Analysis() {
           {cheonma_2_text.body.text_7}
 
         </Typography>
-                <Box
+
+        <Box
           component="img"
           sx={{
             justifyContent: "center",
             textAlign: "center",
-            height: 500,
-            width: 810,
+            margin: "0 auto",
+            height: "auto",
+            width: 800,
           }}
           src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_chonma216_example_LWS.jpeg"
         />
@@ -252,8 +262,9 @@ export default function Cheonma2Analysis() {
           sx={{
             justifyContent: "center",
             textAlign: "center",
-            height: 550,
-            width: 810,
+            margin: "0 auto",
+            height: "auto",
+            width: 800,
           }}
           src="src/Pages/FrontPage/components/TextComp/ImagesComp/M2020_ags_launcher.jpeg"
         />

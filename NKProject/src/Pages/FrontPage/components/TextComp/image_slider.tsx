@@ -26,15 +26,18 @@ export default function ImageSlider() {
     };
 
   return (
+    <Box sx={{ margin: "0 auto" }}>
     <MobileStepper
       variant="dots"
       steps={6}
       position="static"
       activeStep={activeStep}
-      sx={{ maxWidth: 400, flexGrow: 1 }}
+      sx={{  backgroundColor: "#00a0ff", alignItem: "center", flexGrow: 1 }}
       nextButton={
         <Button size="small" onClick={handleNext} disabled={activeStep === 5}>
-          Next
+          <Typography variant="body1">
+            Next
+          </Typography>
           {theme.direction === 'rtl' ? (
             <KeyboardArrowLeft />
           ) : (
@@ -49,10 +52,13 @@ export default function ImageSlider() {
           ) : (
             <KeyboardArrowLeft />
           )}
-          Back
+            <Typography variant="body1">
+                Back
+            </Typography>
         </Button>
       }
     />
+    </Box>
   );
 
 }

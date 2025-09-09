@@ -37,7 +37,7 @@ export default function HomePageText() {
       
       <Box
         sx={{
-          maxWidth: "800px",
+          maxWidth: "810px",
           textAlign: "left",
           margin: "0 auto",
           color: "primary.main", // Use the global theme's primary color
