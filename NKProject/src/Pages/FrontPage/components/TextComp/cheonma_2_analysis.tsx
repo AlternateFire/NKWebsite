@@ -7,9 +7,13 @@ import {
   Grid,
   Stack,
   CardMedia,
+  MobileStepper,
 } from "@mui/material";
 
+import { KeyboardArrowLeft, KeyboardArrowRight } from "@mui/icons-material";
+
 import { cheonma_2_text } from "./cheonma2_text";
+import ImageSlider from "./image_slider";
 
 export default function Cheonma2Analysis() {
   return (
@@ -49,16 +53,19 @@ export default function Cheonma2Analysis() {
           {cheonma_2_text.home.sub_text_title}
         </Typography>
 
-        <Box
-          component="img"
-          sx={{
-            justifyContent: "center",
-            textAlign: "center",
-            height: 330,
-            width: 810,
-          }}
-          src="src/Pages/FrontPage/components/TextComp/ImagesComp/M2020v1.png"
-        />
+        <ImageSlider />
+
+
+        {/* <Box */}
+          {/* component="img" */}
+          {/* sx={{ */}
+            {/* justifyContent: "center", */}
+            {/* textAlign: "center", */}
+            {/* height: 330, */}
+            {/* width: 810, */}
+          {/* }} */}
+          {/* src="src/Pages/FrontPage/components/TextComp/ImagesComp/M2020v1.png" */}
+        {/* /> */}
 
         <Typography
           variant="subtitle1"
