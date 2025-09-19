@@ -10,7 +10,7 @@ This website examins vehicles of high interest, that demonstrate large technical
 I hope to broadly uncover and discuss about these vehicles, as information is relatively lacking to a broad audience. For my enjoyment I did this website in the asthetic of North Korea, and their cheesy at charming asthetics of combining, seemingly period stuck visuals with a new, modern flare. 
 
 Vehicles to be covered as of right now: 
-M2020 (Cheonma-2), M2018, Hwasong-18
+M2020 (Cheonma-2), M2018 (Juche 107), Hwasong-18
 
 # Tech-stack
 - Typescript React
