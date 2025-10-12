@@ -18,6 +18,8 @@ const FrontPage = () => {
             paddingTop: { xs: "100px", sm: "120px", md: "140px" }, 
             paddingBottom: { xs: "100px", sm: "120px", md: "140px" }, 
             boxSizing: "border-box",
+            position: "relative",
+            zIndex: 2,
           }}
         >
           <HomePageText />

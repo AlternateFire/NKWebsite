@@ -9,7 +9,11 @@ export default function BackgroundVideo() {
             loop
             muted
             sx={{
+                position: "fixed",
+                width: "100%",
+                height: "100%",
                 filter: "brightness(15%)",
+                zIndex: 0,
             }}
         >
         </CardMedia>

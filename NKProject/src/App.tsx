@@ -1,7 +1,12 @@
-import NavBar from "./Pages/NavBar/navbar";
-import FrontPage from "./Pages/FrontPage/components/FrontPage";
-import BackgroundVideo from "./Pages/FrontPage/components/FrontPageVideo/frontPageVideo";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@mui/material";
+
+import NavBar from "./Pages/NavBar/navbar";
+import BackgroundVideo from "./Pages/FrontPage/components/FrontPageVideo/frontPageVideo";
+import FrontPage from "./Pages/FrontPage/components/FrontPage";
+import AboutPage from "./Pages/AboutPage/components/AboutPage";
+import ContactPage from "./Pages/ContactPage/components/ContactPage";
 
 const colorTheme = createTheme({
   palette: {
@@ -49,13 +54,17 @@ const colorTheme = createTheme({
 
 const App = () => {
   return (
-    <div>
       <ThemeProvider theme={colorTheme}>
-        <NavBar />
-        <BackgroundVideo />
-        <FrontPage />
+        <Router>
+          <NavBar />
+          <BackgroundVideo /> 
+            <Routes>
+              <Route path="/home" element={<FrontPage />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+          </Routes>
+    </Router>
       </ThemeProvider>
-    </div>
   );
 }; 
 
