@@ -7,9 +7,10 @@ import {
 	Grid,
 } from "@mui/material";
 
-import { m2018_text } from "./m2018_text";
+import { hwasong_18_text } from "./hwasong_18_text";
+import { Css } from "@mui/icons-material";
 
-export default function M2018Analysis() {
+export default function Hwasong18Analysis() {
 	return (
 		<Box
 			sx={{
@@ -33,7 +34,7 @@ export default function M2018Analysis() {
 					gutterBottom
 					sx={{ padding: "10px", margin: 0 }}
 				>
-					{m2018_text.home.title}
+					{hwasong_18_text.home.title}
 				</Typography>
 
 				<Divider
@@ -49,7 +50,7 @@ export default function M2018Analysis() {
 					gutterBottom
 					sx={{ padding: "10px", margin: 0 }}
 				>
-					{m2018_text.home.sub_text_title}
+					{hwasong_18_text.home.sub_text_title}
 				</Typography>
 
 				<Box
@@ -62,7 +63,7 @@ export default function M2018Analysis() {
 						height: 550,
 						width: 810,
 					}}
-					src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2018_parade.jpg"
+					src="src/Pages/FrontPage/components/TextComp/ImagesComp/hwasong18.jpg"
 				/>
 
 				<Typography
@@ -70,10 +71,10 @@ export default function M2018Analysis() {
 					gutterBottom
 					sx={{ padding: "10px", margin: 0 }}
 				>
-					{m2018_text.home.sub_text_1}
+					{hwasong_18_text.home.sub_text_1}
 					<br />
 					<br />
-					{m2018_text.home.sub_text_2}
+					{hwasong_18_text.home.sub_text_2}
 				</Typography>
 			</Box>
 		</Box>
