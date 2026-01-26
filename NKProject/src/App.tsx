@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { createTheme, ThemeProvider } from "@mui/material";
 
@@ -7,6 +6,7 @@ import BackgroundVideo from "./Pages/FrontPage/components/FrontPageVideo/frontPa
 import FrontPage from "./Pages/FrontPage/components/FrontPage";
 import AboutPage from "./Pages/AboutPage/components/AboutPage";
 import ContactPage from "./Pages/ContactPage/components/ContactPage";
+import SourcePage from "./Pages/SourcePage/components/SourcePage";
 
 const colorTheme = createTheme({
 	palette: {
@@ -62,6 +62,7 @@ const App = () => {
 					<Route path="/home" element={<FrontPage />} />
 					<Route path="/about" element={<AboutPage />} />
 					<Route path="/contact" element={<ContactPage />} />
+					<Route path="/sources" element={<SourcePage />} />
 					<Route path="/" element={<FrontPage />} />
 				</Routes>
 			</Router>

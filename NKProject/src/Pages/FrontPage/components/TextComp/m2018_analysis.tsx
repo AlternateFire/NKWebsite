@@ -3,8 +3,6 @@ import {
 	Typography,
 	CssBaseline,
 	Divider,
-	Button,
-	Grid,
 } from "@mui/material";
 
 import { m2018_text } from "./m2018_text";

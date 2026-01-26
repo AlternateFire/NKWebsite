@@ -1,6 +1,5 @@
-// src/Pages/AboutPage/components/AboutPage.jsx
-import React from "react";
-import { Box, Typography } from "@mui/material";
+// src/Pages/AboutPage/components/AboutPage.tsx
+import { Box } from "@mui/material";
 import AboutPageContent from "./AboutPageContent";
 
 const AboutPage = () => {

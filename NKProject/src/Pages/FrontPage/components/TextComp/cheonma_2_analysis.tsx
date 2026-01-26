@@ -1,16 +1,10 @@
 import {
 	Box,
 	Typography,
-	CssBaseline,
 	Divider,
-	Button,
 	Grid,
 	Stack,
-	CardMedia,
-	MobileStepper,
 } from "@mui/material";
-
-import { KeyboardArrowLeft, KeyboardArrowRight } from "@mui/icons-material";
 
 import { cheonma_2_text } from "./cheonma2_text";
 import ImageSlider from "./image_slider";

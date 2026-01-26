@@ -1,13 +1,7 @@
 import {
 	Box,
 	Typography,
-	CssBaseline,
-	Divider,
 	Button,
-	Grid,
-	Stack,
-	CardMedia,
-	Paper,
 	MobileStepper,
 } from "@mui/material";
 

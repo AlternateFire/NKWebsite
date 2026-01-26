@@ -3,15 +3,20 @@ import {
 	Typography,
 	CssBaseline,
 	Divider,
-	Button,
 	Stack,
+	List,
 } from "@mui/material";
 
-import { ContactPageText } from "./ContactPageText";
+import { SourcePageText } from "./SourcePageText";
 
-const hoverColor = "#00a0ff";
+const itemList = [
+	SourcePageText.sources.item_1,
+	SourcePageText.sources.item_2,
+	SourcePageText.sources.item_3,
+	SourcePageText.sources.item_4
+]
 
-export default function ContactPageContent() {
+export default function SourcePageContent() {
 	return (
 		<Stack
 			spacing={2}
@@ -31,8 +36,6 @@ export default function ContactPageContent() {
 					maxWidth: "810px",
 					textAlign: "left",
 					color: "primary.main",
-					gap: 3,
-					borderRadius: 2,
 				}}
 			>
 				<Typography
@@ -40,12 +43,12 @@ export default function ContactPageContent() {
 					gutterBottom
 					sx={{ padding: "10px", margin: 0 }}
 				>
-					{ContactPageText.contact.title}
+					{SourcePageText.about.title}
 				</Typography>
 
 				<Divider
 					sx={{
-						backgroundColor: "primary.main",
+						backgroundColor: "primary.main", // Use global theme's primary color
 						margin: "10px 0",
 						height: "1px",
 					}}
@@ -56,33 +59,23 @@ export default function ContactPageContent() {
 					gutterBottom
 					sx={{ padding: "10px", margin: 0 }}
 				>
-					{ContactPageText.contact.body}
+					{SourcePageText.about.body}
 				</Typography>
 				<br />
 
-				<Box
-					sx={{
-						display: "flex",
-						justifyContent: "left",
-						mt: 2,
-					}}
-				>
-					<Button
-						variant="contained"
-						size="large"
-						component="a"
-						href="mailto:yseunghan34@gmail.com?subject=Contact from website"
-						sx={{
-							backgroundColor: hoverColor,
-							color: "white",
-							"&:hover": {
-								backgroundColor: "#007acc",
-							},
-						}}
-					>
-						Email me
-					</Button>
-				</Box>
+				<List>
+					{itemList.map((item, index) => (
+						<List key={index}>
+							<Typography
+								variant="body1"
+								gutterBottom
+								sx={{ padding: "10px", margin: 0 }}
+							>
+								{item}
+							</Typography>
+						</List>
+					))}
+				</List>
 			</Box>
 		</Stack>
 	);

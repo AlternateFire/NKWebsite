@@ -1,7 +1,5 @@
-import { Box, createTheme, CssBaseline, ThemeProvider } from "@mui/material";
-import BackgroundVideo from "./FrontPageVideo/frontPageVideo";
+import { Box } from "@mui/material";
 import HomePageText from "./TextComp/title_header_beg";
-import WorldClockWidget from "./TextComp/world_clock_widget";
 import Cheonma2Analysis from "./TextComp/cheonma_2_analysis";
 import M2018Analysis from "./TextComp/m2018_analysis";
 import Hwasong18Analysis from "./TextComp/hwasong_18_analysis";

@@ -3,12 +3,9 @@ import {
 	Typography,
 	CssBaseline,
 	Divider,
-	Button,
-	Grid,
 } from "@mui/material";
 
 import { hwasong_18_text } from "./hwasong_18_text";
-import { Css } from "@mui/icons-material";
 
 export default function Hwasong18Analysis() {
 	return (

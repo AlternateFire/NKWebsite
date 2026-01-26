@@ -1,12 +1,12 @@
 import { Box } from "@mui/material";
-import ContactPageContent from "./ContactPageContent";
+import SourcePageContent from "./SourcePageContent";
 
-const ContactPage = () => {
+const SourcePage = () => {
 	return (
 		<div>
 			<Box // going forward: Stop adding fixed positions, use more responsive design logic
 				sx={{
-					height: "100vh",
+				  height: "100vh",
 					display: "flex",
 					flexDirection: "column", // Stack components vertically// Center horizontally
 					justifyContent: "flex-start", // Center vertically
@@ -16,10 +16,10 @@ const ContactPage = () => {
 					zIndex: 2,
 				}}
 			>
-				<ContactPageContent />
+				<SourcePageContent />
 			</Box>
 		</div>
 	);
 };
 
-export default ContactPage;
+export default SourcePage;
