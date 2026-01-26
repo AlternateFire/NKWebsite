@@ -8,7 +8,7 @@ const AboutPage = () => {
 		<div>
 			<Box // going forward: Stop adding fixed positions, use more responsive design logic
 				sx={{
-					height: "100vh",
+				  height: "100vh",
 					display: "flex",
 					flexDirection: "column", // Stack components vertically// Center horizontally
 					justifyContent: "flex-start", // Center vertically
