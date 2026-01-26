@@ -2,7 +2,6 @@
 *.json
 *.md
 *.mjs
-*.ts
 *.mts
 *.map
 node_modules/cookie/LICENSE
