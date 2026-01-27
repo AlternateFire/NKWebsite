@@ -63,7 +63,7 @@ export default function NavBar() {
 								color: "white",
 								"&:hover": { color: "#00a0ff" },
 							}}
-							onClick={() => navigate("/about")}
+							onClick={() => navigate("about")}
 						>
 							<Typography variant="subtitle1" sx={{ fontWeight: "thin" }}>
 								About
@@ -80,7 +80,7 @@ export default function NavBar() {
 								color: "white",
 								"&:hover": { color: "#00a0ff" },
 							}}
-							onClick={() => navigate("/sources")}
+							onClick={() => navigate("sources")}
 						>
 							<Typography variant="subtitle1" sx={{ fontWeight: "thin" }}>
 								Sources
@@ -96,7 +96,7 @@ export default function NavBar() {
 								color: "white",
 								"&:hover": { color: "#00a0ff" },
 							}}
-							onClick={() => navigate("/contact")}
+							onClick={() => navigate("contact")}
 						>
 							<Typography variant="subtitle1" sx={{ fontWeight: "thin" }}>
 								Contact
@@ -154,7 +154,7 @@ export default function NavBar() {
 								"&:hover": { color: "#00a0ff" },
 							}}
 							startIcon={<HomeIcon />}
-							onClick={() => navigate("/home")}
+							onClick={() => navigate("home")}
 						></Button>
 					</Grid>
 				</Grid>
