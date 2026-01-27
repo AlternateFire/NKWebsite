@@ -55,7 +55,7 @@ const colorTheme = createTheme({
 const App = () => {
 	return (
 		<ThemeProvider theme={colorTheme}>
-			<Router>
+			<Router basename="/NKWebsite">
 				<NavBar />
 				<BackgroundVideo />
 				<Routes>
