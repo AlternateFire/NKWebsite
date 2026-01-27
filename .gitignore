@@ -1,14 +1,9 @@
-*.js
-*.json
-*.md
-*.mjs
-*.mts
-*.map
-node_modules/cookie/LICENSE
-node_modules/react/LICENSE
-node_modules/react-dom/LICENSE
-node_modules/scheduler/LICENSE
-node_modules/set-cookie-parser/LICENSE
+# Dependencies
+node_modules/
+
+# Build outputs (source builds, not deployed docs)
+dist
+dist-ssr
 
 # Logs
 logs
@@ -19,9 +14,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Local env files
 *.local
 
 # Editor directories and files
@@ -34,3 +27,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignore source JS/TS compiled output in src, but NOT built bundles
+/NKProject/src/**/*.js
+
+# Allow built files in docs folder
+!/docs/**/*

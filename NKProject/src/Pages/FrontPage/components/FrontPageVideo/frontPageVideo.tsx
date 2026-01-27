@@ -1,11 +1,12 @@
 import "./frontPageVideo.css";
 import { CardMedia } from "@mui/material";
+import video from "./frontPageVideo.mp4";
 
 export default function BackgroundVideo() {
 	return (
 		<CardMedia
 			component={"video"}
-			src={"src/Pages/FrontPage/components/FrontPageVideo/Video/frontVideo.mp4"}
+			src={video}
 			autoPlay
 			loop
 			muted
