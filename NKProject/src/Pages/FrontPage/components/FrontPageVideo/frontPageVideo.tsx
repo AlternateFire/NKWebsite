@@ -1,6 +1,6 @@
 import "./frontPageVideo.css";
 import { CardMedia } from "@mui/material";
-import video from "./frontPageVideo.mp4";
+import video from "./Video/frontVideo.mp4";
 
 export default function BackgroundVideo() {
 	return (
