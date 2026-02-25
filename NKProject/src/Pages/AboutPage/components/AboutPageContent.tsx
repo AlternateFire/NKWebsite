@@ -7,9 +7,8 @@ import {
 } from "@mui/material";
 
 import { AboutPageText } from "./AboutPageText";
+import KimSimle from "/images/kimjongun_smile.webp";
 
-const image =
-	"/src/Pages/AboutPage/components/AboutImages/kimjongun_smile.webp";
 export default function AboutPageContent() {
 	return (
 		<Stack
@@ -73,7 +72,8 @@ export default function AboutPageContent() {
 					height: "auto",
 					width: 810,
 				}}
-				src={image}
+				src={KimSimle}
+				alt="Kim Jong-un smiling"
 			/>
 		</Stack>
 	);

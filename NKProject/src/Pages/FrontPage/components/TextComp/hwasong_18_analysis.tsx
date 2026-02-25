@@ -1,9 +1,4 @@
-import {
-	Box,
-	Typography,
-	CssBaseline,
-	Divider,
-} from "@mui/material";
+import { Box, Typography, CssBaseline, Divider } from "@mui/material";
 
 import { hwasong_18_text } from "./hwasong_18_text";
 
@@ -60,7 +55,7 @@ export default function Hwasong18Analysis() {
 						height: 550,
 						width: 810,
 					}}
-					src="src/Pages/FrontPage/components/TextComp/ImagesComp/hwasong18.jpg"
+					src="/images/hwasong18.jpg"
 				/>
 
 				<Typography

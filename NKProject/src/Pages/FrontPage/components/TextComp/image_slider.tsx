@@ -1,27 +1,25 @@
-import {
-	Box,
-	Typography,
-	Button,
-	MobileStepper,
-} from "@mui/material";
+import { Box, Typography, Button, MobileStepper } from "@mui/material";
 
 import * as React from "react";
 import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 import { useTheme } from "@mui/material/styles";
+import M2020v1 from "/images/M2020v1.png";
+import M2020v2 from "/images/M2020v2.png";
+import M2020v3 from "/images/M2020v3.png";
 
 // Image array
 const images = [
 	{
-		imgPath: "./src/Pages/FrontPage/components/TextComp/ImagesComp/M2020v1.png",
+		imgPath: M2020v1,
 		label: "M2020 Image 1",
 	},
 	{
-		imgPath: "./src/Pages/FrontPage/components/TextComp/ImagesComp/M2020v2.png",
+		imgPath: M2020v2,
 		label: "M2020 Image 2",
 	},
 	{
-		imgPath: "./src/Pages/FrontPage/components/TextComp/ImagesComp/M2020v3.png",
+		imgPath: M2020v3,
 		label: "M2020 Image 3",
 	},
 ];

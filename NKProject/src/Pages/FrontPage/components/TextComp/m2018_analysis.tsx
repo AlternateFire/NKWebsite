@@ -1,9 +1,4 @@
-import {
-	Box,
-	Typography,
-	CssBaseline,
-	Divider,
-} from "@mui/material";
+import { Box, Typography, CssBaseline, Divider } from "@mui/material";
 
 import { m2018_text } from "./m2018_text";
 
@@ -60,7 +55,7 @@ export default function M2018Analysis() {
 						height: 550,
 						width: 810,
 					}}
-					src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2018_parade.jpg"
+					src="/images/m2018_parade.jpg"
 				/>
 
 				<Typography

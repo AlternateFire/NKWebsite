@@ -2,18 +2,17 @@ import { Box, Typography, Divider, Grid, Stack } from "@mui/material";
 
 import { cheonma_2_text } from "./cheonma2_text";
 import ImageSlider from "./image_slider";
-import M2020RearView from "./ImagesComp/m2020_rearview_firing.jpeg";
-import M2020Equipment from "./ImagesComp/equipment_overview.jpeg";
-import M2020ThermalSight from "./ImagesComp/thermal_sight.jpeg";
-import M2020ThermalSightV2 from "./ImagesComp/m2020_thermal_sight.png";
-import TurretAnalysis from "./ImagesComp/turret_analysis.jpeg";
-import M2020APFSDS1 from "./ImagesComp/m2020_apfsds_1.png";
-import M2020APFSDS2 from "./ImagesComp/m2020_apfsds_top_2.png";
-import M2020APS from "./VideoComp/M2020_APS.gif";
-import M2020Chonma216 from "./ImagesComp/m2020_chonma216_example_LWS.jpeg";
-import M2020AGSLauncher from "./ImagesComp/M2020_ags_launcher.jpeg";
-//src/Pages/FrontPage/components/TextComp/ImagesComp/thermal_sight.jpeg
-//m2020_thermal_sight
+
+import M2020RearView from "/images/m2020_rearview_firing.jpeg";
+import M2020Equipment from "/images/equipment_overview.jpeg";
+import M2020ThermalSight from "/images/thermal_sight.jpeg";
+import M2020ThermalSightV2 from "/images/m2020_thermal_sight.png";
+import TurretAnalysis from "/images/turret_analysis.jpeg";
+import M2020APFSDS1 from "/images/m2020_apfsds_1.png";
+import M2020APFSDS2 from "/images/m2020_apfsds_top_2.png";
+import M2020APS from "/images/M2020_APS.gif";
+import M2020Chonma216 from "/images/m2020_chonma216_example_LWS.jpeg";
+import M2020AGSLauncher from "/images/M2020_ags_launcher.jpeg";
 
 export default function Cheonma2Analysis() {
 	return (

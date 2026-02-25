@@ -7,7 +7,7 @@ import Button from "@mui/material/Button";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import HomeIcon from "@mui/icons-material/Home";
 import { Typography } from "@mui/material";
-import BannerImage from "./image/nkbanner5.png"
+import BannerImage from "/images/nkbanner5.png";
 
 const APPBAR_HEIGHT = 81;
 
