@@ -7,7 +7,7 @@ import Button from "@mui/material/Button";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import HomeIcon from "@mui/icons-material/Home";
 import { Typography } from "@mui/material";
-import bannerImage from "./image/nkbanner5.png"
+import BannerImage from "./image/nkbanner5.png"
 
 const APPBAR_HEIGHT = 81;
 
@@ -117,7 +117,7 @@ export default function NavBar() {
 								maxHeight: { xs: 300, md: 300 },
 								maxWidth: { xs: 3000, md: 3000 },
 							}}
-							src={bannerImage}
+							src={BannerImage}
 							alt="Banner"
 						/>
 					</Grid>

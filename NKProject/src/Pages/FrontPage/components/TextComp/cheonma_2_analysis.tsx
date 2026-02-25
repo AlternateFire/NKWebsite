@@ -1,13 +1,19 @@
-import {
-	Box,
-	Typography,
-	Divider,
-	Grid,
-	Stack,
-} from "@mui/material";
+import { Box, Typography, Divider, Grid, Stack } from "@mui/material";
 
 import { cheonma_2_text } from "./cheonma2_text";
 import ImageSlider from "./image_slider";
+import M2020RearView from "./ImagesComp/m2020_rearview_firing.jpeg";
+import M2020Equipment from "./ImagesComp/equipment_overview.jpeg";
+import M2020ThermalSight from "./ImagesComp/thermal_sight.jpeg";
+import M2020ThermalSightV2 from "./ImagesComp/m2020_thermal_sight.png";
+import TurretAnalysis from "./ImagesComp/turret_analysis.jpeg";
+import M2020APFSDS1 from "./ImagesComp/m2020_apfsds_1.png";
+import M2020APFSDS2 from "./ImagesComp/m2020_apfsds_top_2.png";
+import M2020APS from "./VideoComp/M2020_APS.gif";
+import M2020Chonma216 from "./ImagesComp/m2020_chonma216_example_LWS.jpeg";
+import M2020AGSLauncher from "./ImagesComp/M2020_ags_launcher.jpeg";
+//src/Pages/FrontPage/components/TextComp/ImagesComp/thermal_sight.jpeg
+//m2020_thermal_sight
 
 export default function Cheonma2Analysis() {
 	return (
@@ -78,7 +84,8 @@ export default function Cheonma2Analysis() {
 						height: 550,
 						width: 810,
 					}}
-					src="src/Pages/FrontPage/components/TextComp/ImagesComp/M2020_rearview_firing.jpeg"
+					src={M2020RearView}
+					alt="M2020 Rear View"
 				/>
 
 				<Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
@@ -103,7 +110,8 @@ export default function Cheonma2Analysis() {
 						height: 450,
 						width: 810,
 					}}
-					src="src/Pages/FrontPage/components/TextComp/ImagesComp/equipment_overview.jpeg"
+					src={M2020Equipment}
+					alt="M2020 Equipment"
 				/>
 
 				<Typography
@@ -135,7 +143,8 @@ export default function Cheonma2Analysis() {
 						height: "auto",
 						width: 810,
 					}}
-					src="src/Pages/FrontPage/components/TextComp/ImagesComp/thermal_sight.jpeg"
+					src={M2020ThermalSight}
+					alt="Thermal Sights"
 				/>
 
 				<Typography
@@ -162,7 +171,8 @@ export default function Cheonma2Analysis() {
 							height: "auto",
 							width: 350,
 						}}
-						src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_thermal_sight.png"
+						src={M2020ThermalSightV2}
+						alt="Thermal sight 2"
 					/>
 				</Grid>
 
@@ -192,7 +202,8 @@ export default function Cheonma2Analysis() {
 						height: "auto",
 						width: 810,
 					}}
-					src="src/Pages/FrontPage/components/TextComp/ImagesComp/turret_analysis.jpeg"
+					src={TurretAnalysis}
+					alt="M2020 Turret Analysis"
 				/>
 
 				<Typography variant="body1" sx={{ padding: "10px", margin: 0 }}>
@@ -211,7 +222,8 @@ export default function Cheonma2Analysis() {
 							height: "auto",
 							width: 410,
 						}}
-						src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_apfsds_1.png"
+						src={M2020APFSDS1}
+						alt="M2020 APFSDS Rounds"
 					/>
 
 					<Box
@@ -225,7 +237,8 @@ export default function Cheonma2Analysis() {
 							height: "auto",
 							width: 410,
 						}}
-						src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_apfsds_top_2.png"
+						src={M2020APFSDS2}
+						alt="M2020 APFSDS Top View"
 					/>
 				</Stack>
 
@@ -253,7 +266,8 @@ export default function Cheonma2Analysis() {
 							height: "auto",
 							width: 700,
 						}}
-						src="src/Pages/FrontPage/components/TextComp/VideoComp/M2020_APS.gif"
+						src={M2020APS}
+						alt="M2020 Active Protection System"
 					/>
 				</Stack>
 
@@ -272,7 +286,8 @@ export default function Cheonma2Analysis() {
 						height: "auto",
 						width: 810,
 					}}
-					src="src/Pages/FrontPage/components/TextComp/ImagesComp/m2020_chonma216_example_LWS.jpeg"
+					src={M2020Chonma216}
+					alt="M2020 Chonma-216 Example"
 				/>
 
 				<Typography
@@ -301,7 +316,8 @@ export default function Cheonma2Analysis() {
 						height: "auto",
 						width: 810,
 					}}
-					src="src/Pages/FrontPage/components/TextComp/ImagesComp/M2020_ags_launcher.jpeg"
+					src={M2020AGSLauncher}
+					alt="M2020 AGS Launcher"
 				/>
 
 				<Typography

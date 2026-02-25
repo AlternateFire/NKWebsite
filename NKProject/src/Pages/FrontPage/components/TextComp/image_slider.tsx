@@ -13,15 +13,15 @@ import { useTheme } from "@mui/material/styles";
 // Image array
 const images = [
 	{
-		imgPath: "/src/Pages/FrontPage/components/TextComp/ImagesComp/M2020v1.png",
+		imgPath: "./src/Pages/FrontPage/components/TextComp/ImagesComp/M2020v1.png",
 		label: "M2020 Image 1",
 	},
 	{
-		imgPath: "/src/Pages/FrontPage/components/TextComp/ImagesComp/M2020v2.png",
+		imgPath: "./src/Pages/FrontPage/components/TextComp/ImagesComp/M2020v2.png",
 		label: "M2020 Image 2",
 	},
 	{
-		imgPath: "/src/Pages/FrontPage/components/TextComp/ImagesComp/M2020v3.png",
+		imgPath: "./src/Pages/FrontPage/components/TextComp/ImagesComp/M2020v3.png",
 		label: "M2020 Image 3",
 	},
 ];
