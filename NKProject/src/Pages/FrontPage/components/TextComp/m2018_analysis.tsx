@@ -1,6 +1,7 @@
 import { Box, Typography, CssBaseline, Divider } from "@mui/material";
 
 import { m2018_text } from "./m2018_text";
+import M2018Image from "/images/m2018_parade.jpg"; 
 
 export default function M2018Analysis() {
 	return (
@@ -55,7 +56,8 @@ export default function M2018Analysis() {
 						height: 550,
 						width: 810,
 					}}
-					src="/images/m2018_parade.jpg"
+					src={M2018Image}
+					alt="M2018Image"
 				/>
 
 				<Typography

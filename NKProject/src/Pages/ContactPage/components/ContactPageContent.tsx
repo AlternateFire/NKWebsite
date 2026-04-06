@@ -63,8 +63,8 @@ export default function ContactPageContent() {
 				<Box
 					sx={{
 						display: "flex",
-						justifyContent: "left",
-						mt: 2,
+						justifyContent: "center",
+						mt: 0,
 					}}
 				>
 					<Button
