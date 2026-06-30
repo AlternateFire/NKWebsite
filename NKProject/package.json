@@ -3,37 +3,33 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
+	"packageManager": "pnpm@11.5.0",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
-		"predeploy": "npm run build",
-  		"deploy": "gh-pages -d ../docs"
+		"predeploy": "pnpm run build",
+		"deploy": "gh-pages -d ../docs"
 	},
 	"dependencies": {
-		"@emotion/react": "^11.11.3",
-		"@emotion/styled": "^11.11.0",
-		"@hookform/resolvers": "^5.2.2",
-		"@mui/icons-material": "^5.15.1",
-		"@mui/material": "^5.15.1",
-		"@vercel/node": "^4.0.0",
+		"@emotion/react": "^11.14.0",
+		"@emotion/styled": "^11.14.1",
+		"@mui/icons-material": "^5.18.0",
+		"@mui/material": "^5.18.0",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
-		"react-hook-form": "^7.71.1",
-		"react-router-dom": "^7.9.4",
-		"resend": "^6.8.0",
-		"yup": "^1.7.1"
+		"react-router-dom": "^7.18.1"
 	},
 	"devDependencies": {
-		"@types/node": "^20.10.5",
-		"@types/react": "^18.3.18",
-		"@types/react-dom": "^18.2.17",
-		"@vitejs/plugin-react": "^4.2.1",
+		"@types/node": "^22.19.0",
+		"@types/react": "^18.3.28",
+		"@types/react-dom": "^18.3.7",
+		"@vitejs/plugin-react": "^4.7.0",
 		"baseline-browser-mapping": "^2.9.18",
-		"eslint-plugin-react-refresh": "^0.4.5",
+		"eslint-plugin-react-refresh": "^0.4.26",
 		"gh-pages": "^6.3.0",
-		"typescript": "^5.2.2",
-		"vite": "^7.1.9"
+		"typescript": "^5.9.3",
+		"vite": "^7.3.6"
 	}
 }
